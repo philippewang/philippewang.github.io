@@ -1,0 +1,30 @@
+%% Copyright (C) 2013  Philippe Wang
+{< module Meta : Meta = struct
+ let title = "Conservation du chocolat"
+ let id = "posts/2013-10-11-10-00-42-conservation-du-chocolat.html"
+ let xmldate = "2013-10-11T10:00:42+01:00"
+ let xmldate_updated = xmldate
+ let rssdate = "Fri, 11 Nov 2013 10:00:42 +0100"
+ let date = "2013-10-11 10:00:42+01:00"
+ let tags = [ "chocolat"; ]
+ let disqus = true
+ let stamp = true
+ let tryocaml = false
+end
+include Meta
+module Post(Printer:Printer) = struct >}
+
+S'il fait tr�s chaud et que votre chocolat risque d'en souffrir (*), vous pouvez conserver votre chocolat au r�frig�rateur ! Mais attention, il ne suffit pas de "simplement" mettre votre chocolat au r�frig�rateur, car vous risqueriez de le retrouver dans un mauvais �tat � sa sortie ! Si vous mettez du chocolat au r�frig�rateur, il faut absolument s'assurer qu'il y aura le moins possible d'�change d'odeurs et d'humidit�. Et � sa sortie, il faudra �viter la condensation !
+
+Le conseil : mettre votre chocolat dans un sac cong�lation ferm� **herm�tiquement**, avec le moins d'air possible afin de minimiser l'humidit� pr�sente dans le sac, avant de le placer au r�frig�rateur. � sa sortie, le laisser dans le sac ferm� herm�tiquement pendant plusieurs heures afin qu'il revienne � temp�rature ambiante sans subir de condensation. Lorsque le chocolat sera revenu � temp�rature ambiante, vous devriez retrouver un chocolat aussi bien cristallis� qu'avant d'avoir �t� refroidi. :-)
+
+Si vous comptez utiliser le chocolat sous forme fondue pour faire par exemple un g�teau au chocolat, alors il n'est pas n�cessaire de faire revenir lentement le chocolat � temp�rature ambiante avant de le faire fondre. Le faire revenir lentement � temp�rature ambiante est indispensable lorsque vous avez besoin que le chocolat reviennent dans un �tat o� la cristallisation est bonne, par exemple � la fin de l'�t� quand les temp�ratures sont retomb�es et que vous n'avez plus besoin de laisser le chocolat au r�frig�rateur.
+
+Attention, si vous avez l'intention de temp�rer le chocolat, il faut absolument le laisser revenir lentement � temp�rature ambiante car la condensation mettrait en grand p�ril la possibilit� m�me de temp�rer le chocolat.
+
+(*) exemples de risques possibles pour le chocolat :
+- fonte : lorsqu'il va recristalliser, il y a de fortes chances pour qu'il recristallise mal, le beurre de cacao risque de migrer, vous risquez d'avoir un chocolat qui se conserve alors assez mal (� cause du gras devenu instable), laid (c'est pas beau le beurre de cacao qui migre) et avec une texture en bouche qui n'est plus aussi fondante.
+- attaque de mites alimentaires : les mites alimentaires sont plus nombreuses lorsqu'il fait suffisamment chaud pour qu'elles se reproduisent en toute libert�. Elles ne supportent pas le froid du r�frig�rateur.
+
+
+{< end >}%% don't write anything after this line

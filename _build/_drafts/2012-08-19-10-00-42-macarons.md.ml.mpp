@@ -1,0 +1,400 @@
+%% Copyright (C) 2013  Philippe Wang -*- coding: utf-8 -*-
+{< module Meta : Meta = struct
+ let title = "Macarons"
+ let id = "posts/2012-08-19-10-00-42-macarons.html"
+ let xmldate = "2012-08-19T10:00:42+00:00"
+ let xmldate_updated = "2013-10-12T10:00:42+00:00"
+ let rssdate = "Sun, 19 Aug 2012 10:00:42 +0000"
+ let date = "2012-08-19 10:00:42+00:00"
+ let tags = [ "recette"; "macarons"; "pâtisserie"; ]
+ let disqus = true
+ let stamp = true
+ let tryocaml = false
+end
+include Meta
+
+module Post(Printer:Printer) = struct open Printer >}
+
+Les macarons  parisiens sont  des pâtisseries à  la mode,  délicats en
+apparence mais aussi  délicats à réaliser. Quant aux  goûts du macaron
+parisien, ils  varient selon l’auteur  de l’assemblage des  parfums et
+plus particulièrement du goût du fourrage utilisé, bien sûr mais aussi
+de l’humeur de celui qui les  déguste. La texture, quant à elle, varie
+selon la  réussite des  coques de macarons,  de leur  conservation, et
+aussi de leur fourrage.
+
+Ces macarons  sont connus pour  être des gâteaux colorés,  souvent aux
+couleurs  vives qui  marquent  l’esprit. Leur  apparence  a une  forte
+influence sur la  manière dont on les déguste:  c’est pour cela qu’ils
+sont si  souvent colorés... avec des  colorants qui ne  donnent pas de
+goût si ce n’est qu’ils influent l’esprit du gourmand et que cela a en
+fait un impact  non négligeable sur le goût. On  aura bien compris que
+si on  mange des macarons dans  le noir, les  colorants n’auront aucun
+effet sur le goût!  Sauf si les colorants sont en fait des ingrédients
+naturels comme le cacao en poudre ou le paprika en poudre par exemple.
+
+Dans cet article, je propose une synthèse des différentes approches de
+la  réalisation  de macarons  parisiens.  Je  me  base sur  ma  propre
+expérience de réalisation de macarons  ainsi que sur des livres et des
+sites web.
+
+### Précision du travail
+
+On dit  souvent qu’en pâtisserie,  on travaille au gramme  près (alors
+qu’en cuisine en général, c’est  plus souple). Je ne suis pas vraiment
+d’accord.   Il y  a de  très  nombreuses pâtisseries  qu’il n’est  pas
+nécessaire de travailler  au gramme près. Mais derrière  ce dicton qui
+donne une  image de  discipline militaire, se  cache une  assez grande
+complexité. En fait, en pâtisserie, des fois, on a besoin d’un travail
+de grande  précision, et il faut  alors travailler au  gramme près (et
+parfois  encore plus  précisément que  ça).  Alors  c’est  plus simple
+d’appliquer tout le  temps la règle du travail  au gramme près, plutôt
+que de faire  du cas par cas. (Un des exemples  extrêmes est le dosage
+de l'agar-agar  en poudre: à un  gramme près, vous  pouvez passer d'un
+liquide  visqueux à  du caoutchouc,  ou  presque.) Pour  ceux qui  ont
+quelques notions de chimie, dîtes vous que c'est un peu comme avec les
+histoires  de proportions stoechiométriques,  en particulier  pour les
+macarons.
+
+Si on regarde un peu les différentes recettes qu’on peut trouver, tout
+d’abord  on constate  qu’elles sont  très nombreuses,  similaires mais
+avec  des différences,  que ce  soit de  technique ou  de proportions,
+etc. On est vite perdu.
+
+Les macarons sont réputés comme  étant difficiles à réussir. Pour moi,
+cela vient principalement de  l’imprécision des recettes en général et
+cette  sorte de  volonté  de  ne pas  vouloir  imposer une  discipline
+stricte aux lecteurs et de laisser une grande part au hasard, et c'est
+aussi parce que les gens veulent  le plus souvent des recettes où il y
+a peu à lire.  Et pour les macarons, on peut écrire la recette en même
+10 lignes,  mais elle ne  s'adressera qu'aux connaisseurs, donc  on va
+éviter parce  que les  connaisseurs n'ont pas  besoin de me  lire pour
+faire des macarons!
+
+
+#### Respect des proportions
+
+##### La première imprécision vient de la quantité de blanc d’oeuf.
+
+En général,  les recettes  indiquent une quantité  de blanc  d’oeuf en
+terme  de nombre  d’oeuf.  Par exemple,  «2  blancs d’oeuf».  Ensuite,
+parfois ils  indiquent qu’un blanc  d’oeuf fait environ  35g. Quelques
+fois, si on a  un peu de chance, on voit que  l’auteur met une réserve
+si jamais les blancs d’oeuf font un poids différent.
+
+À moins de travailler dans  une cuisine professionnelle avec des oeufs
+en bidon (où les blancs et  les jaunes sont dans des bidons différents
+bien sûr), on a peu de chances d’avoir des blancs d’oeuf qui font pile
+poil 35g. Mais comme c’est une valeur moyenne, plus on utilise d’oeufs
+et plus on a en moyenne des  blancs d’oeuf de 35g.  Par exemple, si je
+casse un oeuf, je risque d’avoir  un blanc d’oeuf qui fait entre 25 et
+45g. Si  je casse dix  oeufs, j’ai statistiquement plutôt  des grandes
+chances d’avoir  entre 300  et 400g de  blanc d’oeuf  (plutôt qu'entre
+250g et  450g) et même que j’ai  de bonnes chances d’avoir  350g à 10g
+près. Cela dit,  on ne veut pas toujours  utiliser une dizaine d’oeufs
+pour faire  des macarons! (10  oeufs, à la  louche ça doit  être assez
+pour faire 200 coques de macarons d’environ 3,5cm de diamètre)
+
+La  solution que  je  propose est  simple:  il faut  se  baser sur  la
+quantité de blanc d’oeuf car c’est l’ingrédient dont la quantité qu’on
+va  obtenir en cassant  des oeufs  est impossible  à deviner  avant de
+casser les oeufs.
+
+**N.B. J’ai pu constater que souvent, les oeufs bio ont des jaunes plus
+gros.**
+
+Cependant, ce n’est pas une obligation  de se baser sur la quantité de
+blanc d’oeuf. L’important est  de bien respecter les proportions. Donc
+si  vous voulez  vous  baser par  exemple  sur la  quantité de  poudre
+d’amande, par  exemple parce  que vous n’en  avez que  65g exactement,
+c’est  possible. Avec  65g  d’amande,  si on  fait  le calcul  d’après
+([masterchef][]), il faut  52g de blanc d’oeuf, ce  qui fait un énorme
+blanc  d’oeuf  ou  bien un  peu  moins  de  deux. Donc  vous  casserez
+probablement deux oeufs  et vous aurez un peu trop  de blanc, que vous
+pourrez utiliser dans une omelette par exemple (ou bien pour faire une 
+petite meringue française).
+
+### Deux techniques de réalisation de l’appareil à coques
+
+#### La technique de la meringue italienne: sucre cuit sur les blancs d’oeuf
+
+##### Proportions d’après ([masterchef][])
+
+\oeuf   {100}{100}{ 80}
+\amande {125}{125}{100}
+\sglace {125}{125}{100}
+\spoudre{125}{125}{100}
+\eau    { 31}{ 31}{ 25}
+
+Les quantités sont en grammes ou toute autre unité de mesure de masse.
+Ces proportions **ne** peuvent **pas** s’appliquer à une mesure
+volumique.
+
+*C’est cette proportion que j’utilise le plus souvent.*
+
+##### Étapes de réalisation
+
+###### Tâche 1.
+
+Séparer en deux quantités égales le blanc d’oeuf.
+
+Les tâches 2 et 3 peuvent être faites en parallèle si vous êtes plusieurs.
+
+###### Tâche 2.
+
+1.  Battre (très) lentement la moitié du blancs d’oeuf pendant 30
+    secondes, pour dérouler les protéines, puis battre à grande vitesse
+    pour qu’ils montent. (Si on bat à grande vitesse dès le début, on
+    risque de casser les protéines et la montée devient plus
+    incertaine.)
+
+2.  Mettre le sucre blanc au centre d’une casserole et ajouter l’eau sur
+    les côtés sans faire de projection. Attendre un peu que ça fonde,
+    puis cuire jusqu’à 118°C (si ça caramélise, c’est que ça a largement
+    dépassé 118°C et que vous n’avez plus qu’à recommencer en faisant
+    plus attention)
+
+3.  Quand le sucre fait 118°C, le verser en au moins 3 fois sur les
+    blancs montés (le premier versement ne doit pas dépasser le tiers
+    pour ne pas trop chauffer localement les blancs), et fouetter à
+    vitesse maximale pendant une minute. Vous pouvez ensuite réduire la
+    vitesse (pour que ça fasse moins de bruit et que le moteur chauffe
+    moins) jusqu’à ce que la meringue italienne ait une texture crémeuse
+    (elle devrait alors faire maximum 45°C). *Attention à ne pas verser
+    beaucoup trop lentement le sucre: il durcit en refroidissant! Et
+    attention à ne pas verser le sucre sur le fouet car il refroidirait
+    très rapidement et se figerait, ce qui diminuerait la quantité de
+    sucre incorporé dans la meringue, ce qui fausserait les quantités,
+    donc compromettrait la recette.*
+
+###### Tâche 3.
+
+1.  passer au tamis le sucre glace et la poudre d’amande. Si la poudre
+    d’amande n’est pas assez fine, la passer au mixeur avec un peu de
+    sucre glace (ou la totalité), selon la capacité de votre mixeur.
+    Vous aurez peut-être à faire cela en plusieurs fois. Si votre poudre
+    d’amande fait une masse pendant le passage au mixeur, vous avez
+    trois solutions:
+
+    1.  soit vous faîtes confiance au mixeur et vous utilisez
+        directement cette masse sans la passer au tamis
+
+    2.  soit vous passez quand même le mélange au tamis (c’est juste un
+        peu plus difficile)
+
+    3.  soit avant le passage au mixeur, vous passez la poudre d’amande
+        au four pour la sécher un peu (sans la griller), dans ce cas,
+        faîtes attention au poids de l’amande qui a peut-être pas mal
+        diminué.
+
+2.  Si vous n’avez pas déjà mélangé le sucre glace et la poudre
+    d’amande, mélangez les avec un fouet pour éviter de former des
+    masses.
+
+3.  Ajoutez la moitié des blancs d’oeuf et mélangez pour former un
+    appareil homogène.
+
+Avoir une poudre d’amande assez fine est primordial, car avoir une
+poudre grossière revient à diminuer la surface de contact entre la
+matière sèche (la poudre d’amande) et la matière liquide (le blanc
+d’œuf).
+
+*Astuce: si vous avez du mal à obtenir deux parts égales ou si vous avez
+trop peu de blanc d’oeuf pour arriver à les monter en neige, montez tout
+en neige, puis séparez à ce moment en deux parts égales, l’une pour
+continuer la tâche 2 (donc l’ajout de sucre cuit) et l’autre pour la
+tâche 3. *
+
+###### Tâche 4. Le macaronage.
+
+Il ne reste plus qu’à ajouter en 3 ou 4 fois la meringue italienne au
+mélange à base d’amande, et à mélanger (macaroner) jusqu’à l’obtention
+d’une pâte lisse, brillante et un peu coulante.
+
+Il ne faut pas que le macaronage dure trop longtemps car ça liquéfie la
+pâte, mais un macaronage trop court donne une pâte trop peu homogène.
+
+Si la pâte est trop liquide, il faudra attendre plus longtemps avant la
+cuisson pour qu’elle sèche. (La cause la plus fréquente de la pâte trop
+liquide, hormis le non respect évident des proportions de la recette,
+vient d’une poudre d’amande trop grossière plutôt que d’un macaronage
+raté.)
+
+#### La technique de la meringue française: sucre en poudre sur les blanc d’oeuf
+
+##### Proportions d’après ([hermé:desserts][Hermé])
+
+Pierre Hermé indique 7 blancs d’oeuf dans sa recette , ce qui n’est pas
+très précis. Il indique dans le même livre qu’un blanc d’oeuf fait en
+moyenne 34g. Partant sur cette base, 7 blancs d’oeuf font 238g et les
+proportions sont alors les suivantes:
+
+{< let proportions = [
+"oeuf"   , 238, 100,  85;
+"amande" , 280, 118, 100;
+"sglace" , 480, 202, 171;
+"spoudre", 0,   0,   0;
+"eau"    , 0,   0,   0;
+] in ...
+>}
+
+*Remarque. Pour sa recette de base, avec 480g de sucre glace, Pierre
+Hermé ajoute jusqu’à 9 gouttes de colorant alimentaire ou 40g de cacao
+sans changer la quantité des autres ingrédients.*
+
+##### Proportions d’après ([cuisine-facile.com:macarons][cuisine-facile.com])
+
+{< let proportions = [
+"oeuf"   , 35, 100,  87;
+"amande" , 40, 114, 100;
+"sglace" , 75, 188, 187;
+"spoudre", 7,  20,  17;
+"eau"    , 0,   0,   0;
+] 
+let _ = print_proportions ()
+>}
+
+##### Proportions d’après ([recettemacaron.eu:macarons][recettemacaron.eu])
+
+{< let proportions = [
+"oeuf"   , 100, 100,  80;
+"amande" , 125, 125, 100;
+"sglace" , 200, 200, 160;
+"spoudre", 30,  30,  24;
+"eau"    , 0,   0,   0;
+] in ...
+>}
+
+##### Proportions d’après ([marmiton.org:macarons][marmiton.org])
+
+{< let proportions = [
+"oeuf"   , 35, 100,  83;
+"amande" , 42, 120, 100;
+"sglace" , 74, 211, 176;
+"spoudre", 10,  29,  24;
+"eau"    , 0,   0,   0;
+] in ...
+>}
+
+
+##### Étapes de réalisation
+
+###### Tâche 1.
+
+Tamiser ensemble le sucre glace et la poudre d’amande.
+
+###### Tâche 2.
+
+Monter les blancs en neige ferme. Si la recette utilise du sucre en
+poudre, l’incorporer au blanc quand ça commence à bien mousser pour
+faire un appareil à meringue française.
+
+###### Tâche 3.
+
+Verser très rapidement le mélange (sucre glace + poudre d’amande) en
+pluie sur les blancs en neige (ou l’appareil à meringue française). Et
+macaroner.
+
+### Formation, croutâge et cuisson des macarons
+
+#### Cuisson des macarons
+
+##### La double plaque de cuisson
+
+Pourquoi utiliser plusieurs plaques de cuisson?
+
+Il y a deux étapes pour obtenir une belle surface lisse non craquelée
+sur le macaron. La première est le croûtage, c’est l’étape qui consiste
+à sécher le dessus du macaron afin qu’il se forme une croûte. Si la
+croûte est assez solide, elle ne se craquellera pas. Mais c’est la
+seconde étape qui fixe la croûte, c’est-à-dire le passage au four, donc
+la cuisson. Cette étape doit se passer avant que le macaron ne commence
+à gonfler, car dans le cas contraire, la coque sera fissurée. Quand le
+macaron commence à gonfler, il se forme une collerette en dessous. Pour
+qu’elle se forme, il faut que la poussée due à la cuisson se fasse bien.
+Et au final, pour que le macaron se décolle bien, il faut que le bas du
+macaron soit bien cuit.
+
+La double plaque permet de ralentir la cuisson du bas du macaron (qui
+est en contact avec la plaque). Cela permet au haut du macaron de cuire
+en premier.
+
+La double plaque va accumuler de la chaleur et la diffusera de manière
+uniforme si elle a une bonne conduction de la chaleur. Deux plaques
+mises l’une sur l’autre, bien lourdes, ne se déformeront pas pendant la
+cuisson: c’est pour cela qu’on utilise de préférence des plaques en
+acier, puisque c’est lourd et que ça diffuse très efficacement la
+chaleur. L’aluminium a tendance à se déformer beaucoup plus que l’acier.
+Il faut bien sûr des plaques qui s’enchevêtrent bien l’une sur l’autre
+pour avoir un maximum de surface de contact, sinon c’est comme si on
+n’avait qu’une seule plaque (l’air est un très mauvais conducteur de
+chaleur).
+
+Certains utilisent 3 ou 4 plaques plutôt que seulement 2.
+
+La pierre de cuisson (pour le pain et les pizzas) est un excellent
+accumulateur de chaleur, mais la chaleur n’est pas du tout rendue
+uniformément à cause de la lenteur de diffusion (par rapport au métal).
+Si on cuit des macarons dessus, les macarons se déformeront un peu
+n’importe comment pendant la cuisson.
+
+###### Accumulation de chaleur et diffusion uniforme de la chaleur
+
+La cuisson des macarons est une étape simple à réaliser si on dispose du
+matériel nécessaire et qu’on apprend à connaître son four. Mais ce n’est
+pas tout, car elle dépend également de la couleur des coques de macaron.
+
+###### Notes diverses
+
+####### Douilles et poches à douilles
+
+Pour les débutants, je conseillerais des poches à douilles jetables sans
+douille mais juste avec l’embout découpé. Si on veut être plus
+écologique, les poches à douilles réutilisables sont très bien mais il
+faut alors trouver la bonne taille de douille. L’important est bien sûr
+de prendre une douille ni trop petite (ça risquerait de liquéfier la
+pâte) ni trop grosse (ça risquerait de faire des grosses flaques).
+
+####### Poids des œufs
+
+-   Les petits œufs (S) pèsent moins de 53 grammes.
+
+-   Le poids des œufs moyens (M) est compris entre 53 et 63 g.
+
+-   Le poids des gros œufs (L) est compris entre 63 et 73 g.
+
+-   Les très gros œufs (XL) pèsent plus de 73 g.
+
+### Références
+
+{< let _ = 
+  let bib = [
+"masterchef:2011",
+"MasterChef 2011", 
+"*Collectif: MasterChef Le Cookbook saison 2*. Solar, 2011. ISBN-13: 978-2263053665.";
+
+"Hermé:desserts", 
+"Hermé",
+"Pierre Hermé: *Le Larousse des desserts: recettes, techniques et tours de main*. Larousse, seconde édition, 2011.";
+
+"Felder:macaronssalés", 
+"Felder",
+"Christophe Felder: *Délicieux macarons salés*. La Martinière, 2011. ISBN: 978-2-7324-4659-2";
+
+"cuisine-facile.com:macarons",
+"Cuisine-Facile.com",
+"Macarons. <http://cuisine-facile.com/desserts/recette-macarons.html>.";
+
+"marmiton.org:macarons",
+"marmiton.org",
+"Macarons inratables. <http://www.marmiton.org/recettes/recette_macarons-inratables_72497.aspx>.";
+
+"recettemacaron.eu:macarons",
+"recettemacaron.eu",
+"recettemacaron.eu: Macaron vanille. <http://recettemacaron.eu/macaron-vanille>.";
+]
+in references bib
+
+>}
+
+{< end >}%% don't write anything after this line

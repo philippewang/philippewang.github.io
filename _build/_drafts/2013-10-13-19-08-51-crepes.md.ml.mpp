@@ -1,0 +1,21 @@
+%% Copyright (C) 2013  Philippe Wang -*- coding: utf-8 -*-
+{< module Meta : Meta = struct
+ let title = "Crêpes"
+ let id = "posts/2013-10-13-19-08-51-crepes.html"
+ let xmldate = "2013-10-13T19:08:51+00:00"
+ let xmldate_updated = xmldate
+ let rssdate = "Sun, 13 Oct 2013 19:08:51 +0000"
+ let date = "2013-10-13 19:08:51+00:00"
+ let tags = [ ]
+ let disqus = true
+ let stamp = true
+ let tryocaml = false
+end
+include Meta
+
+module Post(Printer:Printer) = struct open Printer >}
+
+
+
+
+{< end >}%% don't write anything after this line

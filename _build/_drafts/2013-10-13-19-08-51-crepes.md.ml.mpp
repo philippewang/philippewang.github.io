@@ -15,7 +15,51 @@ include Meta
 
 module Post(Printer:Printer) = struct open Printer >}
 
+Mélanger au fouet 100g farine (blanche et tamisée de préférence) + 250g lait
 
+Ajouter 2 oeufs, mélanger (au fouet manuel).
+
+et ensuite :
+
++ 10g de sucre
++ 1 pincée de sel
++ 20g de vieux rhum ambré
++ 20 à 40g d'eau selon la consistance de la pâte (qui varie selon les caractéristiques des oeufs et de la farine) : ça, ça dépend de l'expérience.
++ les graines d'une gousse de vanille dans 40g de beurre fondu (il faut que le beurre ne soit pas trop bien mélangé à la pâte)
+
+Cuisson : poêle en fer,  légèrement beurrée, (sans revêtement) à 200°C
+(maxi 220°C, au delà ça  devient ardu). L'aluminium conduit la chaleur
+beaucoup plus vite que le fer, à 200°C les poêles en aluminium brûlent
+les crêpes  avant de  les avoir cuites,  si toutefois  leur revêtement
+style  Téflon n'est pas  déjà bon  au recyclage.  Bref, il  faut alors
+baisser la température tout en ayant  un feu assez efficace et je n'ai
+fait que de rares essais assez décevants (crêpes caoutchouteuses et/ou
+cramées).
+
+Remarques : Le mélange manuel ne donne pas la même consistance de pâte
+qu'en cas d'utilisation d'un robot. Un bon mélange manuel ne forme pas
+de grumeaux, et  la pâte n'a pas besoin de repos.   Si des grumeaux se
+forment, ça  peut venir d'une  farine non tamisée,  d'une augmentation
+des doses  (le mélange farine-lait doit  ne doit pas se  faire dans de
+trop grandes doses), d'un fouet mal adapté (trop grand ou trop petit),
+une  fourchette ne  remplace pas  un fouet.   Autre solution  face aux
+grumeaux: laisser reposer  la pâte 1h ou 2,  normalement ils finissent
+par "fondre".  Toute modification de la recette a des conséquences sur
+la texture de la pâte, y compris le fait de mettre 3g de sucre en plus
+ou en  moins. 
+
+Par exemple :
+- si la  farine est mélangée aux  œufs en
+premier, il faudra laisser reposer la  pâte (environ 1h).
+- si le rhum est ajouté avant les œufs, la pâte est plus difficile à mélanger.
+- si pas de sucre, la pâte colore  moins vite, si davantage de sucre, c'est
+trop sucré et ça dore trop vite.
+- si pas de beurre, la pâte est plus sèche.
+-  les  blancs  d'oeufs  ont une  structure  (au  niveau  des
+protéines)  qui peut être  détruite par  l'utilisation d'un  robot, ça
+modifie la texture des crêpes, c'est l'une des raisons pour lesquelles
+il  vaut  mieux un  mélange  manuel (sauf  si  on  préfère les  crêpes
+caoutchouteuses, ce qui est le cas de certains).
 
 
 {< end >}%% don't write anything after this line
